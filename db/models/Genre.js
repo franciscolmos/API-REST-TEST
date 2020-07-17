@@ -25,9 +25,9 @@ module.exports = function(sequelize, DataTypes)  {
 			field: 'active'
 		},
 	}, {
-		tableName: 'genres'
+		tableName: 'genres',
+		underscored: true
     });
-    
  
 
     return Genre;

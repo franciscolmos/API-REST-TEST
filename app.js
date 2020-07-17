@@ -8,7 +8,7 @@ global.__basedir = __dirname;
 
 const genresRouter = require('./src/routes/api/genres');
 var app = express();
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
